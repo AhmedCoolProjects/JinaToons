@@ -1,0 +1,101 @@
+ @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
+
+*{
+ font-family: 'Rubik', sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ list-style: none;
+}
+body{
+ width: 100%;
+ height: 100%;
+ position: relative;
+ background: rgb(121, 119, 119);
+}
+
+.big_pic{
+ width: 100%;
+ z-index: 0;
+ height: 48vw;
+ position: relative;
+ background: chartreuse;
+}
+.main_page{
+ width: 100%;
+ height: 145vw;
+ position: relative;
+ display: flex;
+ padding: 0;
+margin-top: 3%;
+}
+.left_page{
+ width: 20%;
+ height: 100%;
+ background: rebeccapurple;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.left_page button{
+ width: 80%;
+ outline: none;
+ height: 3%;
+ background: transparent;
+ margin-bottom: 2%;
+}
+.left_page button a{
+ padding: 8% 35%;
+}
+.left_page a,.left_page button a{
+ font-size: 1.6vw;
+ color: white;
+ line-height:4.5vw;
+}
+.left_page a:hover{
+ color: red;
+}
+.right_page{
+ width: 80%;
+ height: 100%;
+ position: relative;
+ padding-left: 2%;
+
+}
+.prdct_1,.prdct_2,.prdct_3,.prdct_4,.prdct_6,.prdct_5,.prdct_7,.prdct_8,.prdct_9,.prdct_10,.prdct_11,.prdct_12{
+width: 32%;
+height: 20%;
+margin-bottom: 1%;
+position: relative;
+align-items: center;
+padding:0;
+display: inline-block;
+}
+.pic_1,.pic_2,.pic_3,.pic_4,.pic_5,.pic_6,.pic_7,.pic_8,.pic_9,.pic_10,.pic_11,.pic_12{
+ width: 100%;
+ height: 100%;
+ background: skyblue;
+ margin: 0;
+ position: relative;
+ align-items: flex-end;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+}
+
+.prdct_1_info,.prdct_2_info,.prdct_3_info,.prdct_4_info,.prdct_6_info,.prdct_5_info,.prdct_7_info,.prdct_8_info,.prdct_9_info,.prdct_10_info,.prdct_11_info,.prdct_12_info {
+ width: 100%;
+ height: 20%;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ display: flex;
+ flex-direction: column;
+}
+.prdct_1_info button,.prdct_2_info button,.prdct_3_info button,.prdct_4_info button,.prdct_6_info button,.prdct_5_info button,.prdct_7_info button,.prdct_8_info button,.prdct_9_info button,.prdct_10_info button,.prdct_11_info button,.prdct_12_info button {
+ height: 75%;
+ width: 60%;
+ font-size: 1.4vw;
+ cursor: pointer;
+}
